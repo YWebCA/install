@@ -11,7 +11,7 @@ sudo cp -R /System/Library/User\ Template/English.lproj /Users/ywca
 chown -R ywca:staff /Users/ywca
 echo "Installing XCode tools. Please click the install button when prompted"
 xcode-select --install
-read -p "Press [return] once XCode tools are installed"
+read -p "Press [return] once XCode tools are installed" answer
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew install caskroom/cask/brew-cask postgresql wget node --without-npm
