@@ -8,4 +8,4 @@ sudo dscl . create /Users/ywca PrimaryGroupID 80
 sudo dscl . create /Users/ywca UserShell /bin/bash
 sudo dscl . create /Users/ywca NFSHomeDirectory /Users/ywca
 sudo cp -R /System/Library/User\ Template/English.lproj /Users/ywca
-chown -R ywca:staff /Users/ywca
+chown -R ywca:staff /Users/ywcac
